@@ -14,7 +14,7 @@ class Ponto {
     void enviarCartao();
     void validaCartao();
     void setStatus(Ponto ponto, bool env);
-    void alterarHoras(int cobr, int horas, int ini, int fim, Ponto ponto);
+    void alterarHoras(int cobr, int horas, string ini, string fim, Ponto ponto);
     void inserirNovaHora(bool cancelar, int horas, Ponto ponto);
 };
 
