@@ -2,7 +2,6 @@
 #define PAGAMENTO_HPP
 
 #include <bits/stdc++.h>
-#include <ctime>
 #include <string>
 using namespace std;
 
