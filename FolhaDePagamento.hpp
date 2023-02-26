@@ -1,14 +1,17 @@
-#ifndef GERENTE_HPP
-#define GERENTE_HPP
+#ifndef FOLHADEPAGAMENTO_HPP
+#define FOLHADEPAGAMENTO_HPP
 
 #include <bits/stdc++.h>
+#include <list>
+#include <string>
 #include <Relatorio.hpp>
 #include <Funcionario.hpp>
 using namespace std;
 
-class Gerente {
+class FolhaDePagamento {
   public:
-    Gerente();
+    FolhaDePagamento();
+    float calcularPagamento(Funcionario func);
     Relatorio criarRelatorio(int tipo, string ini, string fim, list<Funcionario> funcs);
 };
 
