@@ -18,7 +18,7 @@ run:
 				./program
 
 clean:
-				@$(RM) $(OBJS)
+				@$(RM) $(OBJS) *.gch
 
 purge: clean
 				@$(RM) $(OUTPUT)
