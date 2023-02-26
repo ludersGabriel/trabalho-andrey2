@@ -2,13 +2,13 @@
 #define RELATORIO_HPP
 
 #include <bits/stdc++.h>
+
 using namespace std;
 
-class Relatorio {
-  public:
-    Relatorio();
-    int horas;
-    float pagamento;
-};
+class Dados{
+    private:
+        int horas;
+        float pagamento;
+}
 
 #endif
